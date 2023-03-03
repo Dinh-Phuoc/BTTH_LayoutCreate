@@ -1,0 +1,99 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#wrapper{
+    height: 900px;
+    width: 1089px;
+}
+
+#head{
+    
+}
+
+#banner{
+    background-color: aquamarine;
+    height: 90px;
+    position: relative;
+
+}
+
+#banner .menu{
+    position: relative;
+}
+
+#banner .menu li{
+    position: absolute;
+    list-style: none;
+    float: left;   
+    border: 2px solid orange; 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#banner .menu li:hover{
+    list-style: none;  
+    background-color: aqua; 
+    color: tomato;
+}
+
+#banner .menu li a {
+    text-align: center;
+}
+
+#banner .menu li:nth-child(1) {
+    top: 30px;
+    left: 300px;
+}
+#banner .menu li:nth-child(3) {
+    top: 30px;
+    left: 500px;
+}
+#banner .menu li:nth-child(2) {
+    top: 30px;
+    left: 400px;
+}
+#banner .menu li:nth-child(4) {
+    top: 30px;
+    left: 600px;
+}
+
+
+
+#banner .menu li a{
+    text-decoration: none;
+}
+#nav{
+    background-color: beige;
+    height: 50px;
+}
+
+#content{
+    height: 600px;
+    background-color: blue;
+}
+
+#content .left {
+    background-color: wheat;
+    float: left;
+    height: 600px;
+    width: 30%;
+}
+#content .mainContent {
+    background-color: rgb(153, 226, 35);
+    height: 600px;
+    float: left;
+    width: 40%;
+}
+#content .right {
+    background-color: rgb(216, 113, 216);
+    height: 600px;
+    float: left;
+    width: 30%;
+}
+
+footer{
+    height: 160px;
+    background-color: darkgoldenrod;
+}
